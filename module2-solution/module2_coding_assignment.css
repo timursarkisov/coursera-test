@@ -1,0 +1,165 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+   width: 100%;
+}
+
+main section {
+  color: #000000;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: #999999;
+  border: 3px solid #000000;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  margin: 5px;
+}
+
+main section h1 {
+  float: right;
+  margin-top: -1rem;
+  margin-right: -1rem;
+  text-align: right;
+  padding: 5px 22px;
+  width: 10rem
+}
+
+p {
+  clear: right;
+}
+
+.chicken {
+  background-color: #de9395;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.beef {
+  background-color: #cf2838;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  color: #ffffff;
+}
+
+.sushi {
+  background-color: #e6d394;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 32%;
+  }
+  .col-lg-5 {
+    width: 45%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33%;
+  }
+  .col-md-5 {
+    width: 45%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.33%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+
+
+  @media (max-width: 767px) {
+    main section {
+      width: 90%;
+  }
+}
+
